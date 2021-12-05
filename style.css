@@ -1,0 +1,369 @@
+a {
+    text-decoration: none;
+}
+
+menu {
+    list-style-type: none;
+}
+
+body {
+    background-color: black;
+}
+
+/*Main Title*/
+
+.header-menu {
+    background-image: url("img/backgr-menu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+}
+
+.shadow {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 65px;
+    position: relative;
+    z-index: 100;
+    width: 100%;
+}
+
+.text-style {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 40px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-link:hover {
+    color: gray;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+}
+
+.intro-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 79px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 17px;
+}
+
+.intro-expl {
+    font-family: 'Montserrat', sans-serif;
+    color: #d4d4d4;
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/*categories*/
+
+.our-categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.categories {
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: lighter;
+}
+
+.tab_mnu {
+    margin-bottom: 25px;
+}
+
+ul li{
+    display: table-cell;
+    
+}
+
+ul li a{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    width: 90px;
+    height: 20px;
+    line-height: 73px;
+    text-align: center;
+    color: #777;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ul li.active a, ul li:hover a {
+    color: white;
+}
+
+
+.categories-description {
+    height: 139px;
+    width: 1158px;
+    display: none;
+}
+
+.categories-description span {
+    width: 810px;
+    padding-left: 174px;
+    position: absolute;
+    line-height: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: block;
+    font-weight: 100;
+}
+
+.categories-description:first-child{
+    display: block;
+}
+
+/*photo*/
+
+.photo {
+    margin-top: 103px;
+    height: 300px;
+    background-image: url("img/background-menu.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+
+
+/**/
+
+.hide {
+    display: none;
+}
+
+.artists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.list-artist{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.item-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 60px;
+    background-color: white;
+}
+
+.li-artist {
+    height: 20px;
+    text-align: center;
+    color: #777;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.li-artist:hover {
+    color: white;
+}
+
+
+.active-artist {
+    color: white;
+}
+
+.artists-items {
+    width: 890px;
+    margin-top: 100px;
+}
+
+.image-amazing {
+    width: 100%;
+}
+
+.artist-items {
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px;
+    margin-top: 70px;
+}
+
+
+.items-image {
+    width: 290px;
+    margin-top: -3px;
+}
+
+/*  */
+
+.our-artists-background{
+    display: flex;
+    justify-content: center;
+}
+
+.content-block-artists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 1160px;
+}
+
+.artists-main-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.artists-title {
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+.description-author {
+    font-family: 'Montserrat', sans-serif;
+    color: #bbbbbb;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 46px;
+    text-align: center;
+}
+
+.artist-name {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 43px;
+}
+
+.position-author {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.mini-circle-photo {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all .3s;
+    margin: 0 20px;
+}
+
+.mini-circle-photo:hover {
+    cursor: pointer;
+}
+
+.mini-circle-border {
+    transform: translateY(-10px);
+    transition: all .3s;
+}
+
+.image-block-artist {
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 43px;
+    box-shadow: 0 0 0 10px rgba(129, 131, 130, 0.2);
+}
+
+.image-artist {
+    height: 100%;
+}
+
+.move-authors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 50px;
+}
+
+.square:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.fa-angle {
+    color: white;
+    font-size: 13px;
+}
+
+.how-i-should-name-it{
+    display: flex;
+}
+
+.tr {
+    background-image: url("img/backg3.jpg");
+}
