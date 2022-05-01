@@ -1,1 +1,1 @@
-# lab_music_gallery
+# HTML + CSS lab
